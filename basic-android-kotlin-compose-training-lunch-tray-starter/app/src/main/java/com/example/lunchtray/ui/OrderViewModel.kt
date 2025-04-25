@@ -15,7 +15,9 @@
  */
 package com.example.lunchtray.ui
 
+import androidx.compose.runtime.getValue
 import androidx.lifecycle.ViewModel
+import androidx.navigation.compose.currentBackStackEntryAsState
 import com.example.lunchtray.model.MenuItem
 import com.example.lunchtray.model.MenuItem.AccompanimentItem
 import com.example.lunchtray.model.MenuItem.EntreeItem
@@ -33,6 +35,8 @@ class OrderViewModel : ViewModel() {
 
     private val _uiState = MutableStateFlow(OrderUiState())
     val uiState: StateFlow<OrderUiState> = _uiState.asStateFlow()
+
+
 
     fun updateEntree(entree: EntreeItem) {
         val previousEntree = _uiState.value.entree

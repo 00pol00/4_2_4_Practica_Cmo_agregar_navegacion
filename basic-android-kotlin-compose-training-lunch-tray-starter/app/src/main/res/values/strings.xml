@@ -17,7 +17,7 @@
     <string name="app_name">Lunch Tray</string>
     <string name="back_button">Back</string>
     <string name="cancel">Cancel</string>
-    <string name="choose_accompaniment">Choose Accompaniment</string>
+    <string name="choose_accompaniment">Choose Accompaniment</string>//acompañantes
     <string name="choose_entree">Choose Entree</string>
     <string name="choose_side_dish">Choose Side Dish</string>
     <string name="next">Next</string>
